@@ -1,0 +1,109 @@
+.main {
+    /* padding: 20px; */
+    margin-left: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.main .about .personal-photo {
+    position: relative;
+}
+.main .about .about-me {
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+
+.main .skills {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    gap: 40px;
+}
+.main .skills .front-end-skills {
+    width: 500px;
+}
+/* Style for the container */
+.main .skills .front-end-skills .skill .progress-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  /* Style for the actual progress bar */
+.main .skills .front-end-skills .skill .progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #4caf50;
+    transition: width 0.5s ease-in-out;
+  }
+.main .skills .back-end-skills {
+    width: 500px;
+}
+/* Style for the container */
+.main .skills .back-end-skills .skill .progress-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  /* Style for the actual progress bar */
+.main .skills .back-end-skills .skill .progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #4caf50;
+    transition: width 0.5s ease-in-out;
+  }
+.main .projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    gap: 40px;
+}
+
+.main .projects .project {
+    width: 500px;
+}
+
+
+.main .my-services {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    gap: 40px;
+}
+.main .my-services .services {
+    width: 500px;
+}
+.main .my-services .reference {
+    width: 500px;
+}
+
+.main .contact {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    gap: 40px;
+}
+
+.main .contact .email-contact {
+    width: 500px;
+}
+
+.main .contact .email-contact .contact-form .form-input {
+    margin: 10px 0px;
+}
+.main .contact .email-contact .contact-form label {
+
+}
+.main .contact .email-contact .contact-form input {
+    padding: 8px 50px;
+    margin-left: 16px;
+}
+
+.main .contact .email-contact .contact-form button {
+    min-width:100px;
+    padding: 10px;
+}
